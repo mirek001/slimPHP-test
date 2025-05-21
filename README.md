@@ -8,6 +8,7 @@ This repository contains a very basic example of a [Slim Framework](https://www.
    ```bash
    composer install
    ```
+> Slim 4 requires a PSR-17/PSR-7 implementation such as `slim/psr7`.
 2. Start the PHP built-in web server:
    ```bash
    php -S localhost:8080 -t public
